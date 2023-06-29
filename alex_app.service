@@ -7,3 +7,6 @@ User=ubuntu
 WorkingDirectory=/home/ubuntu/training/alex-app/training
 Environment="PATH=/home/ubuntu/training/alex-app/training/bin"
 ExecStart=/home/ubuntu/training/alex-app/training/bin/uwsgi --ini uwsgi.ini
+
+[Install]
+WantedBy=multi-user.target
